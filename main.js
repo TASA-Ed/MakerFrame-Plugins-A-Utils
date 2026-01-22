@@ -1,6 +1,6 @@
 const $name = '【前置】工具插件',
 $type = 2,
-$path = ['TASA-Ed', 'A-Utils'],
+$path = ['TASA-Ed', '0A-Utils'],
 $file = 'tasaed_A-Utils国际化插件.zip',
 $date = '2025/12/16',
 $update = '2025/12/16',
