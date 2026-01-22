@@ -127,7 +127,8 @@ class Logger {
       return;
     }
     const duration = Date.now() - this._timers[label];
-    this.info(`${label}: ${duration}ms`);
+    if (this.minLevel === 0) this.info(`${label}: ${duration}ms`);
+    else this.debug(`${label}: ${duration}ms`);
     delete this._timers[label];
   }
 }
